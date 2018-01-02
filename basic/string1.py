@@ -29,6 +29,8 @@ def donuts(count):
   else:
     return "Number of donuts: many"
 
+#TODO 字符串和数字不能直接相加，通过 str(num) 将数字转化为字符串
+
 
 # B. both_ends
 # Given a string s, return a string made of the first 2
@@ -61,6 +63,9 @@ def fix_start(s):
 
   return "".join(result)
 
+#TODO []通过append添加元素
+#TODO for 通过 range(len(s)) 获得指数循环
+
 # D. MixUp
 # Given strings a and b, return a single string with a and b separated
 # by a space '<a> <b>', except swap the first 2 chars of each string.
@@ -76,6 +81,8 @@ def mix_up(a, b):
   after_b = b[2:len(b)]
 
   return pre_b + after_a + " " + pre_a + after_b
+
+#TODO a[1:9] 注意截取的字符串部分不包含后一个下标所标志的字母
 
 # Provided simple test() function used in main() to print
 # what each function returns vs. what it's supposed to return.
