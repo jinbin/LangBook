@@ -16,9 +16,12 @@
 # If the string length is less than 3, leave it unchanged.
 # Return the resulting string.
 def verbing(s):
-  # +++your code here+++
-  return
-
+  if len(s) < 3:
+    return s
+  elif s.endswith("ing"):
+    return s + "ly"
+  else:
+    return s + "ing"
 
 # E. not_bad
 # Given a string, find the first appearance of the
@@ -28,10 +31,24 @@ def verbing(s):
 # Return the resulting string.
 # So 'This dinner is not that bad!' yields:
 # This dinner is good!
-def not_bad(s):
-  # +++your code here+++
-  return
 
+def not_bad(s):
+  try:
+    index_not = s.index("not")
+  except ValueError:
+    index_not = -1
+
+  try:
+    index_good = s.index("bad")
+  except ValueError:
+    index_good = -1
+
+  if index_not != -1 and index_good != -1 and index_not < index_good:
+    return s.replace(s[index_not:index_good+3], "good")
+  else:
+    return s
+
+#TODO index获取对应的字符串地址，try except 处理异常, replace
 
 # F. front_back
 # Consider dividing a string into two halves.
@@ -41,8 +58,17 @@ def not_bad(s):
 # Given 2 strings, a and b, return a string of the form
 #  a-front + b-front + a-back + b-back
 def front_back(a, b):
-  # +++your code here+++
-  return
+  if len(a) % 2 == 0:
+    a_middle = len(a)/2 - 1
+  else:
+    a_middle = len(a)/2
+
+  if len(b) % 2 == 0:
+    b_middle = len(b)/2 - 1
+  else:
+    b_middle = len(b)/2
+
+  return a[0:a_middle+1] + b[0:b_middle+1] + a[a_middle+1:len(a)] + b[b_middle+1:len(b)]
 
 
 # Simple provided test() function used in main() to print
@@ -78,3 +104,8 @@ def main():
 
 if __name__ == '__main__':
   main()
+
+
+
+
+
