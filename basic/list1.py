@@ -21,9 +21,11 @@
 # and last chars of the string are the same.
 # Note: python does not have a ++ operator, but += works.
 def match_ends(words):
-  # +++your code here+++
-  return
-
+  num = 0
+  for word in words:
+    if(len(word) >= 2 and word[0] == word[-1]):
+      num += 1
+  return num
 
 # B. front_x
 # Given a list of strings, return a list with the strings
@@ -33,10 +35,20 @@ def match_ends(words):
 # Hint: this can be done by making 2 lists and sorting each of them
 # before combining them.
 def front_x(words):
-  # +++your code here+++
-  return
+  x_list = []
+  list = []
+  for word in words:
+    if word.startswith("x"):
+      x_list.append(word)
+    else:
+      list.append(word)
 
+  #return x_list.sort() + list.sort()
+  x_list.sort()
+  list.sort()
+  return x_list + list
 
+#TODO sort()返回的是None
 
 # C. sort_last
 # Given a list of non-empty tuples, return a list sorted in increasing
@@ -45,9 +57,14 @@ def front_x(words):
 # [(2, 2), (1, 3), (3, 4, 5), (1, 7)]
 # Hint: use a custom key= function to extract the last element form each tuple.
 def sort_last(tuples):
-  # +++your code here+++
-  return
+  tuples.sort(key=lambda t : t[-1])
+  return tuples
 
+# TODO 元组 tuple http://www.runoob.com/python/python-tuples.html
+ # Python的元组与列表类似，不同之处在于元组的元素不能修改。
+ # 元组使用小括号，列表使用方括号。元组创建很简单，只需要在括号中添加元素，并使用逗号隔开即可。
+# TODO sort中使用key=指定用于排序的数值
+# TODO python 使用 lambda 来创建匿名函数: lambda [arg1 [,arg2,.....argn]]:expression
 
 # Simple provided test() function used in main() to print
 # what each function returns vs. what it's supposed to return.
@@ -88,3 +105,6 @@ def main():
 
 if __name__ == '__main__':
   main()
+
+# 快捷键运行：control + shift + F10
+

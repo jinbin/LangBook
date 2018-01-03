@@ -64,9 +64,37 @@ def front_back(a, b):
 
   return a[0:a_middle+1] + b[0:b_middle+1] + a[a_middle+1:len(a)] + b[b_middle+1:len(b)]
 
+def assign_list():
+  a = ["a", "b"]
+  b = a
+  b[0] = "c"
+  print a
+
+def match_ends(words):
+  num = 0
+  for word in words:
+    if(len(word) >= 2 and word[0] == word[1]):
+      num += 1
+  return num
+
+def front_x(words):
+  x_list = []
+  list = []
+  for word in words:
+    if word.startswith("x"):
+      x_list.append(word)
+    else:
+      list.append(word)
+
+  x_list.sort()
+  list.sort()
+  return x_list + list
+
 if __name__ == "__main__":
-  print not_bad("This dinner is not that bad!")
-  print front_back("abcd", "12345")
+    words = ["I", "want", "yy", "youAndMe"]
+    print match_ends(words)
+
+    print front_x(["abc", "xzzz", "sure", "xa", "aaa"])
 
 
 
