@@ -91,10 +91,9 @@ def front_x(words):
   return x_list + list
 
 if __name__ == "__main__":
-    words = ["I", "want", "yy", "youAndMe"]
-    print match_ends(words)
-
-    print front_x(["abc", "xzzz", "sure", "xa", "aaa"])
+    a = ["a", "b", "b", "c"]
+    del a[1]
+    print a
 
 
 
