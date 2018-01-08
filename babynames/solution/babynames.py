@@ -57,6 +57,7 @@ def extract_names(filename):
     # We didn't find a year, so we'll exit with an error message.
     sys.stderr.write('Couldn\'t find the year!\n')
     sys.exit(1)
+  # group下标从1开始
   year = year_match.group(1)
   names.append(year)
 
