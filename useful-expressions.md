@@ -12,5 +12,21 @@ Agricultural aspect, should promote using method that saves water, such as spray
 
 农业方面﹐应该推广使用节水技术﹐如喷灌﹐滴灌。
 
+## 世界观
+
+Transform one's world outlook thoroughly
+
+彻底改造世界观
+
+never gave up the dewy outlook of youth.
+
+不要放弃年轻人纯洁的世界观
+
+This change in the world outlook is something fundamental.
+
+世界观的转变是一个根本的转变
+
+
+
 
 
