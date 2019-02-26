@@ -14,5 +14,7 @@ take: noun, an opinion about something
 
 We'd love to hear your take on this issue.
 
+Entrepreneurship
 
+Entrepreneurship is the process of designing, launching and running a new business, which is often initially a small business. The people who create these businesses are called entrepreneurs.
 
