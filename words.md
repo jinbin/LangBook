@@ -18,6 +18,12 @@ We'd love to hear your take on this issue.
 
 Entrepreneurship is the process of designing, launching and running a new business, which is often initially a small business. The people who create these businesses are called entrepreneurs.
 
+例句：
+
+Entrepreneurship at all levels is also more about intuition than industry .
+
+各个层面上的企业家精神，更大程度上是与直觉、而非勤勉有关。
+
 **Startup**
 
 A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. More specifically, a startup is a newly emerged business venture that aims to develop a viable business model to meet a marketplace need or problem. Founders design startups to effectively develop and validate a scalable business model. Hence, the concepts of startups and entrepreneurship are similar. However, entrepreneurship refers all new businesses, including self-employment and businesses that never intend to grow big or become registered, while startups refer to new businesses that intend to grow beyond the solo founder, have employees, and intend to grow large. Start-ups face high uncertainty and do have high rates of failure, but the minority that go on to be successful companies have the potential to become large and influential. Some startups become unicorns, i.e. privately held startup companies valued at over $1 billion.
