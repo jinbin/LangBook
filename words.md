@@ -36,6 +36,10 @@ In any discussion of entrepreneurship , the phrase most frequently invoked is Sc
 
 在每一个关于企业家身份的讨论中，被引用更多的是熊彼特的“创造性破坏”。
 
+I am a software engineer and a tech entrepreneur .
+
+我是一名软件工程师和科技企业家。
+
 **Startup**
 
 A startup or start-up is started by individual founders or entrepreneurs to search for a repeatable and scalable business model. More specifically, a startup is a newly emerged business venture that aims to develop a viable business model to meet a marketplace need or problem. Founders design startups to effectively develop and validate a scalable business model. Hence, the concepts of startups and entrepreneurship are similar. However, entrepreneurship refers all new businesses, including self-employment and businesses that never intend to grow big or become registered, while startups refer to new businesses that intend to grow beyond the solo founder, have employees, and intend to grow large. Start-ups face high uncertainty and do have high rates of failure, but the minority that go on to be successful companies have the potential to become large and influential. Some startups become unicorns, i.e. privately held startup companies valued at over $1 billion.
