@@ -26,5 +26,13 @@ A startup or start-up is started by individual founders or entrepreneurs to sear
 
 A business model describes the rationale of how an organization creates, delivers, and captures value,\[2\] in economic, social, cultural or other contexts. The process of business model construction and modification is also called business model innovation and forms a part of business strategy.
 
+**rationale**
 
+the reasons or intentions that cause a particular set of beliefs or actions
+
+例句：
+
+I don't understand the rationale for these restrictions.
+
+He tried to explain the scientific rationale behind his work.
 
