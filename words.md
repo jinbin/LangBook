@@ -72,5 +72,11 @@ He tried to explain the scientific rationale behind his work.
 
 The earth revolves around the sun.
 
-His life revolves around his work. 
+His life revolves around his work.
+
+She revolved the possibilities in her mind. 
+
+
+
+
 
