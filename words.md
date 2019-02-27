@@ -70,13 +70,7 @@ He tried to explain the scientific rationale behind his work.
 
 例句：
 
-The earth revolves around the sun. 
+The earth revolves around the sun.
 
-
-
-
-
-
-
-
+His life revolves around his work. 
 
