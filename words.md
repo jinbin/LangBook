@@ -66,7 +66,7 @@ He tried to explain the scientific rationale behind his work.
 
 **revolve**
 
-旋转；以某人/某事物为中心
+旋转；以某人/某事物为中心；反复掂量
 
 例句：
 
@@ -74,9 +74,5 @@ The earth revolves around the sun.
 
 His life revolves around his work.
 
-She revolved the possibilities in her mind. 
-
-
-
-
+She revolved the possibilities in her mind.
 
