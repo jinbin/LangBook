@@ -64,3 +64,19 @@ I don't understand the rationale for these restrictions.
 
 He tried to explain the scientific rationale behind his work.
 
+**revolve**
+
+旋转；以某人/某事物为中心
+
+例句：
+
+The earth revolves around the sun. 
+
+
+
+
+
+
+
+
+
